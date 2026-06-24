@@ -2,7 +2,7 @@ export const SITE_CONFIG = {
   name: 'عَمّار',
   slogan: 'نُعَمِّر جمالك',
   description: 'متجر مستحضرات التجميل الفاخر - منتجات عالية الجودة للعناية بالبشرة والشعر',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://ammar-beauty.railway.app',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://ammar-beauty.netlify.app',
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+201202119847',
 };
 

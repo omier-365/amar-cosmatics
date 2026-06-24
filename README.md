@@ -6,11 +6,11 @@
 
 [![Next.js](https://img.shields.io/badge/Next.js-14.2-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue)](https://www.typescriptlang.org/)
-[![Railway](https://img.shields.io/badge/Deploy-Railway-blueviolet)](https://railway.app)
+[![Netlify](https://img.shields.io/badge/Deploy-Netlify-00C7B7)](https://www.netlify.com)
 
 ---
 
-## 🚀 النشر على Railway
+## 🚀 النشر على Netlify
 
 ### البدء السريع (3 دقائق):
 
@@ -18,22 +18,22 @@
 # 1. ارفع المشروع على GitHub
 git push -u origin main
 
-# 2. اذهب إلى Railway
-https://railway.app
+# 2. اذهب إلى Netlify
+https://app.netlify.com
 
-# 3. New Project → Deploy from GitHub → اختر المشروع
-# 4. انتظر النشر (3-5 دقائق)
+# 3. Import from GitHub → اختر المشروع
+# 4. Deploy site (الإعدادات تلقائية)
 # 5. ✅ موقعك شغال!
 ```
 
-**للتفاصيل الكاملة:** [RAILWAY_QUICKSTART.md](RAILWAY_QUICKSTART.md)
+**للتفاصيل الكاملة:** [NETLIFY_DEPLOYMENT.md](NETLIFY_DEPLOYMENT.md)
 
 ---
 
 ## ⚙️ المتغيرات البيئية (اختيارية)
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://your-app.railway.app
+NEXT_PUBLIC_SITE_URL=https://your-site.netlify.app
 NEXT_PUBLIC_WHATSAPP_NUMBER=+201202119847
 NEXT_PUBLIC_FACEBOOK_URL=https://facebook.com/your-page
 NEXT_PUBLIC_INSTAGRAM_URL=https://instagram.com/your-account
@@ -80,9 +80,10 @@ npm start
 - 🛍️ نظام سلة مشتريات متكامل
 - 📱 تكامل مع WhatsApp
 - 🎨 واجهة مستخدم سلسة
-- ⚡ أداء عالي
+- ⚡ أداء عالي - Static Site Generation
 - 📱 متجاوب مع جميع الأجهزة
 - 🔍 محسّن لمحركات البحث
+- 🌐 CDN عالمي مع Netlify
 
 ---
 
@@ -102,8 +103,8 @@ npm start
 
 ## 📚 التوثيق
 
-- [RAILWAY_QUICKSTART.md](RAILWAY_QUICKSTART.md) - بدء سريع (3 دقائق)
-- [RAILWAY_DEPLOYMENT.md](RAILWAY_DEPLOYMENT.md) - دليل شامل كامل
+- [NETLIFY_DEPLOYMENT.md](NETLIFY_DEPLOYMENT.md) - دليل النشر الشامل
+- [PROJECT_INFO.md](PROJECT_INFO.md) - معلومات المشروع
 
 ---
 
@@ -112,7 +113,8 @@ npm start
 - ✅ **Build:** ناجح (14 صفحة)
 - ✅ **Lint:** بدون أخطاء
 - ✅ **TypeScript:** بدون أخطاء
-- ✅ **Railway:** جاهز 100%
+- ✅ **Netlify:** جاهز 100%
+- ✅ **Static Export:** enabled
 
 ---
 
